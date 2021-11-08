@@ -27,7 +27,7 @@ jobs:
       - name: List files in repository
         run: |
           echo "The contents of the repository are:"
-          la ${{ github.workspace }}
+          ls ${{ github.workspace }}
           
       - name: Setup Python
         uses: actions/setup-python@v2
